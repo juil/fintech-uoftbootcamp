@@ -17,6 +17,9 @@ git clone <repo name>
 git add .
 git commit -am 'Commit all changes'
 
+# Useful Aliases
+alias gitlog="git log --all --graph --decorate --pretty --oneline"
+
 # Git Branches
 git checkout -b new-branch-name
 git add -A
