@@ -21,3 +21,14 @@
 	git add -A
 	git commit -m 'New Branch'
 	git push origin new-branch-name
+
+	# Merge
+	git checkout receiving-branch
+	git pull
+	git merge merging-branch
+
+	# Resolving conflict
+	git diff
+	#  Edit conflict file
+	git add file
+	git commit -m 'Merge'
