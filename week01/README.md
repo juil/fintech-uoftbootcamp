@@ -4,6 +4,7 @@
 
 - [Git initialization steps](gitinit.md)
 - [SSH initialization steps](ssh.md)
+- [Better terminal setup](terminal-setup.md)
 
 ## Unit 1 Assignment
 
