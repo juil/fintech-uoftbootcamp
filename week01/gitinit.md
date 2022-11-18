@@ -10,3 +10,12 @@
 	git branch -M main
 	git remote add origin git@github.com:user/project.git
 	git push -u origin main
+
+	# Other commands
+	git clone <repo name>
+	git add .
+	git commit -am 'Commit all changes'
+	git checkout -b new-branch-name
+	git add -A
+	git commit -m 'New Branch'
+	git push origin new-branch-name
