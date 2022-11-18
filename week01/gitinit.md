@@ -36,4 +36,18 @@ git diff
 #  Edit conflict file
 git add file
 git commit -m 'Merge'
+
+# Deleting Old git Branches
+# https://ardalis.com/why-delete-old-git-branches/
+# Local
+git branch -d branchname
+# Remote
+git push origin --delete branchname
+# List git Branches
+git branch -a
+git branch --merged
+# Keep record with tags
+git tag tagname
+git push --tags
+# Git pruning: https://railsware.com/blog/git-housekeeping-tutorial-clean-up-outdated-branches-in-local-and-remote-repositories/
 ```
