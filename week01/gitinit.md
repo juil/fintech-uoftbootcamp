@@ -10,3 +10,5 @@
 	git branch -M main
 	git remote add origin git@github.com:user/project.git
 	git push -u origin main
+
+	# Git branches
