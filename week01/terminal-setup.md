@@ -12,7 +12,7 @@
 
 ## Plugins:
 
-### Great Setup: [Kevin Smets](https://gist.github.com/kevin-smets/8568070)
+Great Setup by [Kevin Smets](https://gist.github.com/kevin-smets/8568070)
 
 ### Oh My Zsh
 
@@ -37,3 +37,10 @@ edit your `~/.zshrc` and set `ZSH_THEME="powerlevel10k/powerlevel10k"`
 Activate the plugin in `~/.zshrc`
 
 	plugins=( [plugins...] zsh-syntax-highlighting)
+
+## Other Command Line Tools
+
+### mdcat
+Render markdown files in terminal.
+
+	brew install mdcat
