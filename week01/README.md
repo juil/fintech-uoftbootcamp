@@ -1,10 +1,11 @@
 # Week 1: Basics
 
-## Git and SSH
+## Environment Setup
 
 - [Git initialization steps](gitinit.md)
 - [SSH initialization steps](ssh.md)
 - [Better terminal setup](terminal-setup.md)
+- [Python setup](python-setup.md)
 
 ## Unit 1 Assignment
 
