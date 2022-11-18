@@ -1,4 +1,5 @@
 # Git commands to get started
+git config --global user.name "User Name"
 
 echo "# Title" >> README.md
 git init
