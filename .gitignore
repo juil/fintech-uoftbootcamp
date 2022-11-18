@@ -1,2 +1,3 @@
 # Ignore system files
 .DS_Store
+*.ln
