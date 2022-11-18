@@ -1,1 +1,2 @@
-# fintech-week1
+# UofT FinTech Bootcamp
+*Assignments by Juil Yoon*
