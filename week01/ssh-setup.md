@@ -26,4 +26,4 @@ Add Github to list of acceptable SSH hosts.
 
 Check displayed fingerprint against [Github's public key fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints)
 
-![Github RSA key fingerprint](github-sshfingerprint.png)
+![Github RSA key fingerprint](images/github-sshfingerprint.png)

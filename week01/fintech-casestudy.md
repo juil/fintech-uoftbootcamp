@@ -6,7 +6,7 @@
 - Solution Options
 - Recommendation
 
-![The Narrative Arc](narrativearc.png)
+![The Narrative Arc](images/narrativearc.png)
 
 ## Situation
 A **charity** organization had a successful fundraising campaign but is unable to track the delivery of funds to the correct recipients in developing nations.
