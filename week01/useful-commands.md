@@ -20,7 +20,10 @@ See path of program:
 
 #### Alias
 
-Edit `~/.aliases`
+Edit `~/.aliases`, `~/.zshrc`, `~/.bash_profile`
 
 	alias shortcut='cd ~/path'
 	alias cmd='type command`
+
+[More Info](https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/)
+
