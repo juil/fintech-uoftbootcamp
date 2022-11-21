@@ -11,7 +11,16 @@
 
 ### Navigation
 
+#### PATH
+
 See path of program:
 
 	type type
 	which which
+
+#### Alias
+
+Edit `~/.aliases`
+
+	alias shortcut='cd ~/path'
+	alias cmd='type command`
