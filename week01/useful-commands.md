@@ -27,3 +27,19 @@ Edit `~/.aliases`, `~/.zshrc`, `~/.bash_profile`
 
 [More Info](https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/)
 
+#### Search
+
+	find /folder -type f -name file.txt
+
+**File Types:**
+- f – regular file
+- d – directory
+- l – symbolic link
+- c – character devices
+- b – block devices
+
+[More Info](https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/)
+
+	ls folder/ | grep regular expression
+
+[`grep`](https://man7.org/linux/man-pages/man1/grep.1.html)
