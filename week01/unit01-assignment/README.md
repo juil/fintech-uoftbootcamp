@@ -12,16 +12,15 @@ due Thursday 2022/11/24
 **Incorporated:** 2017/01/17
 
 **Founders:**
-- Jean Amiouny - CEO 
-- Roy Breidi - CTO
+Jean Amiouny - CEO 
+Roy Breidi - CTO
 
 [Contact](https://shakepay.com/about?lang=en)
 
 **Funding:**
-- Last funding round: Series A
-- Total funding amount: **$36M**
+Last funding round: Series A
+Total funding amount: **$36M**
 
-* How did the idea for the company (or project) come about?
 
 ## Business Activities:
 
