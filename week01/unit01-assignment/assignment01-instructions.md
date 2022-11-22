@@ -1,5 +1,7 @@
 # Unit 1 Homework Assignment: FinTech Case Study
 
+Submissions Link: https://courses.bootcampspot.com/courses/2670/assignments/45088?module_item_id=835620
+
 ## Background
 
 As a FinTech professional, it is critical to learn how FinTech companies start, evolve, and grow, and to be able to speak knowledgeably about the major players in the FinTech space. Even those in a highly technical role must stay abreast of what is happening in the business landscape, as many FinTech companies create tools and technologies that are then used by other companies.
