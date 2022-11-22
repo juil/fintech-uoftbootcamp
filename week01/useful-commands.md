@@ -1,24 +1,22 @@
-# Useful Commands
+# Useful Terminal Commands
 
-## Terminal
-
-### Better Tools
+## Better Tools
 
 - Editor: `vim` -> `nvim` [NeoVim](https://neovim.io/)
 - Reader: `cat`
 	- `less` Output without cluttering terminal buffer.
 	- `mdcat`, `glow` Markdown output.
 
-### Navigation
+## Navigation
 
-#### PATH
+### PATH
 
 See path of program:
 
 	type type
 	which which
 
-#### Alias
+### Alias
 
 Edit `~/.aliases`, `~/.zshrc`, `~/.bash_profile`
 
@@ -27,7 +25,7 @@ Edit `~/.aliases`, `~/.zshrc`, `~/.bash_profile`
 
 [More Info](https://wpbeaches.com/make-an-alias-in-bash-or-zsh-shell-in-macos-with-terminal/)
 
-#### Search
+### Search
 
 	find /folder -type f -name file.txt
 
@@ -44,17 +42,17 @@ Edit `~/.aliases`, `~/.zshrc`, `~/.bash_profile`
 
 [`grep`](https://man7.org/linux/man-pages/man1/grep.1.html)
 
-### Editing
+## Editing
 
-#### vim
+### vim
 
-##### Copy & Paste:
+#### Copy & Paste:
 - `d` delete/cut
 - `y` yank/copy
 - `p` paste
 
 [More Info](https://vim.fandom.com/wiki/Copy,_cut_and_paste)
 
-##### Undo and Redo
+#### Undo and Redo
 - `u` undo last change
 - `ctrl-r` redo changes which were undone
