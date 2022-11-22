@@ -2,8 +2,24 @@
 Conditionally Yours
 
 Pseudocode:
+    1. Set variables
+        - stock, stock symbol
+        - original price, current price
+        - increase, percent increase
+        - recommendation
+        - threshold to buy, threshold to purchase
+        - balance, portfolio balance
+    2. Display stock, original price, current price
+    3. Check if price is under threshold
+    4. Recommend action (buy or sell)
+    5. Check balance
+        - Only recommend purchase if balance >= 5 * current price
+    6. Final recommendation
 
 """
+# Stock symbol and stock name (string)
+stock = 'NFLX'
+stock_name = 'Netflix'
 
 # Prices: float
 original_price = 360.35
@@ -41,3 +57,11 @@ else:
 
 print(f'Recommendation: {recommendation}.')
 
+'''check-balance:
+    only recommend if balance >= 5 * current price'''
+print(f'Current Balance: ${balance:.2f}')
+affordable = balance >= 5*current_price
+if recommendation == 'buy':
+    if affordable:
+        print(f'Your balance is greater than 5 times the purchase price.
+        \nPurchase ${stock}')
