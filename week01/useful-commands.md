@@ -48,9 +48,13 @@ Edit `~/.aliases`, `~/.zshrc`, `~/.bash_profile`
 
 #### vim
 
-**Copy & Paste:**
+##### Copy & Paste:
 - `d` delete/cut
 - `y` yank/copy
 - `p` paste
 
 [More Info](https://vim.fandom.com/wiki/Copy,_cut_and_paste)
+
+##### Undo and Redo
+- `u` undo last change
+- `ctrl-r` redo changes which were undone
