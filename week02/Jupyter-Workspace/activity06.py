@@ -63,5 +63,9 @@ print(f'Current Balance: ${balance:.2f}')
 affordable = balance >= 5*current_price
 if recommendation == 'buy':
     if affordable:
-        print(f'Your balance is greater than 5 times the purchase price.
-        \nPurchase ${stock}')
+        print('Your balance is greater than 5 times the purchase price.')
+        print(f'Purchase ${stock}')
+    else:
+        print(f'Your balance is too low. You cannot afford to purchase ${stock} at this time.')
+        print(f'Bring your balance above ${current_price*5:.2f} to purchase.')
+
