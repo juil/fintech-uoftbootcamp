@@ -38,6 +38,12 @@ Activate the plugin in `~/.zshrc`
 
 	plugins=( [plugins...] zsh-syntax-highlighting)
 
+## Primary Tools
+
+### Vim
+
+- [Neovim](https://github.com/neovim/neovim)
+- [Using git in vim](https://www.vimfromscratch.com/articles/using-git-from-vim)
 ## Other Command Line Tools
 
 ### mdcat
