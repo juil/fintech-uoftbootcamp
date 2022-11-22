@@ -2,3 +2,4 @@
 .DS_Store
 *.ln
 .ipynb*
+*.swp
