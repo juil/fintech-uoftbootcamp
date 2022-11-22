@@ -6,16 +6,22 @@ due Thursday 2022/11/24
 
 ## Overview and Origin
 
-* Name of company
+**Name:** Shakepay Inc.
 
-* When was the company incorporated?
+**Founded:** 2015
+**Incorporated:** 2017/01/17
 
-* Who are the founders of the company?
+**Founders:**
+- Jean Amiouny - CEO 
+- Roy Breidi - CTO
+
+[Contact](https://shakepay.com/about?lang=en)
+
+**Funding:**
+- Last funding round: Series A
+- Total funding amount: **$36M**
 
 * How did the idea for the company (or project) come about?
-
-* How is the company funded? How much funding have they received?
-
 
 ## Business Activities:
 
