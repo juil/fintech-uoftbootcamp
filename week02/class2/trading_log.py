@@ -12,13 +12,12 @@ total = 0
 count = 0
 maximum = 0
 minimum = 0
-profitable_days = []
-unprofitable_days = []
 
 
 # @TODO: Initialize lists to hold profitable and unprofitable day profits/losses
 
-
+profitable_days = []
+unprofitable_days = []
 
 
 # List of trading profits/losses
@@ -29,9 +28,10 @@ trading_pnl = [ -224,  352, 252, 354, -544,
 
 # @TODO: Iterate over each element of the list
 
-
+for i in range(trading_pnl):
     # @TODO: Cumulatively sum up the total and count
-
+    total += trading_pnl[i]
+    count += 1
 
     # @TODO: Write logic to determine minimum and maximum values
 
