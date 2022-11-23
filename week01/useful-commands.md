@@ -56,3 +56,9 @@ Edit `~/.aliases`, `~/.zshrc`, `~/.bash_profile`
 #### Undo and Redo
 - `u` undo last change
 - `ctrl-r` redo changes which were undone
+
+#### Go to line
+- `vi +line_num foo.c`
+- `number` + `shift-g`
+	- `shift-g` to last line of file
+- `:14`
