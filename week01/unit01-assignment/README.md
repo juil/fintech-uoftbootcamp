@@ -68,6 +68,18 @@ There aren't many good ways to spend one's bitcoin in the real world unless a re
 - vue.js, animate.css, Bulma
 - [Stackshare](https://stackshare.io/shakepay/shakepay)
 
+#### Unfair Advantage
+Because Shakepay only offers BTC and ETH, they are able to offer products with less regulatory scrutiny (SEC chair Gary Gensler confirms that [Bitcoin is not a security](https://decrypt.co/103926/sec-chair-gensler-bitcoin-not-security-what-about-ethereum), one of the only "crypto-currencies" to have such solid confirmation).
+
+Being Canadian, Shakepay is able to integrate instant e-transfer of $CAD in and out of users' accounts. This also means that users do not have to rely on or pay fees for using other transaction methods like wire transfers.
+
+Among its competitors, Shakepay is the only crypto app or CEX (centralized exchange) that offers:  
+- unlimited no-fee withdrawals
+- daily shake rewards ($sats)
+- #shakepaid: a lottery-system that randomly refunds an entire Shakepay VISA purchase in sats
+
+These are all loss-leaders, but Shakepay has garnered a very loyal base of **daily active users**, some of whome have accumulated millions in free sats.
+
 * What solution does this company offer that their competitors do not or cannot
 offer? (What is the unfair advantage they utilize?)
 
