@@ -2,7 +2,7 @@
 .DS_Store
 # Ignore symlinks
 *.ln
-# Ignore python work files
-*.ipynb
+# Ignore python checkpoints
+.ipynb*
 # Ignore temp swap files
 *.swp
