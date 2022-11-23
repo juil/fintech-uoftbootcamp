@@ -12,21 +12,21 @@ due Thursday 2022/11/24
 
 **Website:** [shakepay.com](https://shakepay.me/r/TPTYVWE)
 
-**Founded:** 2015
+**Founded:** 2015  
 **Incorporated:** 2017/01/17
 
-**Founders:**
-Jean Amiouny - CEO 
+**Founders:**  
+Jean Amiouny - CEO  
 Roy Breidi - CTO
 
 [Contact](https://shakepay.com/about?lang=en)
 
-**Funding:**
+**Funding:**  
 Last funding round: Series A
 Total funding amount: **$36M**
 [Crunchbase](https://www.crunchbase.com/organization/shakepay)
 
-**Origin:**
+**Origin:**  
 Originally launched through the BoostVC accelerator in 2015 as a way to load a credit card with bitcoin and spend it in physical retail stores, Shakepay had to pivot quickly when their partner bank and VISA ended their partnership. The solution? Skip a couple steps in their business plan and launch a bitcoin exchange.
 
 Now, 4 years after launching the Shakepay bitcoin exchange, the company has also released a digital VISA credit card that can spend the same $CAD in the account you use to purchase bitcoin, almost coming full circle to the founders' original vision.
