@@ -8,13 +8,11 @@ organize his grocery shopping list.
 
 # @TODO: Create a list of groceries
 
-
-
-
+groceries = ['water', 'butter', 'eggs', 'apples', 'cinnamon', 'sugar', 'milk']
 
 # @TODO: Find the first two items on the list
 
-
+print(f'First two grocery items: {groceries[:2]}')
 
 
 # @TODO: Find the last five items on the list
