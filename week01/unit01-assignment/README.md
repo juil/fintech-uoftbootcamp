@@ -63,6 +63,11 @@ There aren't many good ways to spend one's bitcoin in the real world unless a re
 - Bitcoin & Ethereum networks
 - Coinbase Custody in cold storage
 
+**Financial:**  
+- Interac e-transfer
+- VISA Payment
+- Mobile wallet integration (Google Wallet, Apple Pay)
+
 **Application:**  
 - Cloudflare
 - vue.js, animate.css, Bulma
