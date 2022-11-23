@@ -1,5 +1,8 @@
 # Ignore system files
 .DS_Store
+# Ignore symlinks
 *.ln
+# Ignore python checkpoints
 .ipynb*
+# Ignore temp swap files
 *.swp

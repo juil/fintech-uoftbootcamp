@@ -43,3 +43,14 @@ Edit `~/.aliases`, `~/.zshrc`, `~/.bash_profile`
 	ls folder/ | grep regular expression
 
 [`grep`](https://man7.org/linux/man-pages/man1/grep.1.html)
+
+### Editing
+
+#### vim
+
+**Copy & Paste:**
+- `d` delete/cut
+- `y` yank/copy
+- `p` paste
+
+[More Info](https://vim.fandom.com/wiki/Copy,_cut_and_paste)
