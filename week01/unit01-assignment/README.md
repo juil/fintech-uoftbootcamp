@@ -22,8 +22,8 @@ Roy Breidi - CTO
 [Contact](https://shakepay.com/about?lang=en)
 
 **Funding:**  
-Last funding round: Series A
-Total funding amount: **$36M**
+Last funding round: Series A  
+Total funding amount: **$36M**  
 [Crunchbase](https://www.crunchbase.com/organization/shakepay)
 
 **Origin:**  
