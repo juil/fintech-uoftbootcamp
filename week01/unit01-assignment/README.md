@@ -35,6 +35,17 @@ Now, 4 years after launching the Shakepay bitcoin exchange, the company has also
 
 ## Business Activities:
 
+### Problem Being Solved
+
+#### Buying Bitcoin & Self-Custody
+Shakepay as an exchange makes it as easy as possible to purchase bitcoin (and ethereum) and move it off the app to self-custody for Canadians.
+* The exchange has no buy or sell fees but has a small trading margin for revenue while still maintaining prices at or very close to the market price.
+* Canadians can instantly deposit and withdraw $CAD into their account using Interac e-transfers.
+* Shakepay covers all transaction fees incurred when moving BTC off the app.
+
+#### Spending Bitcoin in the Real World
+
+
 * What specific financial problem is the company or project trying to solve?
 
 * Who is the company's intended customer?  Is there any information about the ma
