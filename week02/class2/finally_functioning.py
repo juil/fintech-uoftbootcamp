@@ -21,7 +21,6 @@ def cagr(b, e, y):
 # Call calculate_compound_growth_rate using beginning_balance, ending_balance, and years. Capture as year_one_growth.
 
 # Initialize global variable annualgrowth
-annualgrowth = 0
 
 def print_growthrate(beg_bal,end_bal,year):
     print(f'Year {int(year)}:')
@@ -30,10 +29,21 @@ def print_growthrate(beg_bal,end_bal,year):
           f'Ending Balance: ${end_bal:,.2f}\n' +
           f'Years: {year:.1f}\n' +
           f'CAGR: {annualgrowth:.2f}%')
+    return annualgrowth
 
-print_growthrate(beginning_balance,ending_balance,years)
+year1cagr = print_growthrate(beginning_balance,ending_balance,years)
 
 # Update beginning_balance and ending balance for year two, and then execute calculate_compound_growth_rate
+def newyear():
+    beginning_balance = ending_balance
+    # years += 1
+    return
+
+
+ending_balance = ending_balance * 1.69420
+
+newyear()
+year2cagr = print_growthrate(beginning_balance,ending_balance,years)
 
 
 # Call calculate_compound_growth_rate using beginning_balance, ending_balance, and years. Capture as year_two_growth.
