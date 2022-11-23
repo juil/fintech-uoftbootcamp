@@ -122,7 +122,7 @@ ny?
 
 - [About Shakepay](https://shakepay.com/about?lang=en)
 - [FINTRAC](https://www10.fintrac-canafe.gc.ca/msb-esm/public/detailed-information/msb-details/7b226d73624f72674e756d626572223a3134393737362c227072696d617279536561726368223a7b226f72674e616d65223a227368616b65706179222c2273656172636854797065223a337d7d/)
-- [Crunchbase](https://www.crunchbase.com/organization/shakepay/technology)
+- [Crunchbase](https://www.crunchbase.com/organization/shakepay/)
 - [StatCan](https://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=PR&Code1=01&Geo2=PR&Code2=01&Data=Count&SearchText=Canada&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1)
 - [Stackshare](https://stackshare.io/shakepay/shakepay)
 - [decrypt - SEC Chair Gensler Again Says Bitcoin Is Not a Security. What About Ethereum?"](https://decrypt.co/103926/sec-chair-gensler-bitcoin-not-security-what-about-ethereum)
