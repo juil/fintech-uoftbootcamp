@@ -124,8 +124,8 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 ### Key Metrics
 
 #### Users
-**Performance:**
-**History:**
+**Performance:**  
+**History:**  
 - 1,000,000 users [2022/03/30](https://blog.shakepay.com/one-million-shakers/)
 - 800,000 users [2021/11/10](https://blog.shakepay.com/2-of-canadians-are-now-using-shakepay/)
 - 600,000 users [2021/05/20](https://blog.shakepay.com/600-000-canadians-now-on-shakepay/) 	
@@ -135,8 +135,8 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 ![Users over time](images/shakepayusers-chart.png)
 
 #### Transactions
-**Performance:**
-**History:**
+**Performance:**  
+**History:**  
 - [2022/02/08](https://blog.shakepay.com/thanks-to-you-shakepay-sent-donations-to-the-mooooooon/): Shakepay users made at least 468,000 transactions using the Shakepay prepaid visa card between Dec 2021 - Feb 2022
 
 ### Compared to the Competition
