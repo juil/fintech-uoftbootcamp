@@ -100,7 +100,18 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 
 -*See [Sources](#Sources) for more details.*
 
-* What are the other major companies in this domain?
+### Competitors
+
+#### Canada
+- [Newton](https://web.newton.co/r/9RXNPI)
+- [Coinsquare](http://coinsquare.com/register?r=d7jPJ)
+- [Wealthsimple](https://my.wealthsimple.com/app/public/trade-referral-signup?code=DR3KXW)
+
+#### International
+- [Coinbase](https://www.coinbase.com/)
+- [Cake Defi](https://cakedefi.com/?ref=780045)
+- [Kraken](https://www.kraken.com/)
+- Bankrupt: ~~FTX, Blockfi, Celsius~~
 
 ## Results
 
