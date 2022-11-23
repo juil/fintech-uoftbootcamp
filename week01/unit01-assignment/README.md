@@ -85,16 +85,11 @@ Among its competitors, Shakepay is the only crypto app or CEX (centralized excha
 
 These are all loss-leaders, but Shakepay has garnered a very loyal base of **daily active users**, some of whome have accumulated millions in free sats.
 
-* What solution does this company offer that their competitors do not or cannot
-offer? (What is the unfair advantage they utilize?)
-
-* Which technologies are they currently using, and how are they implementing the
-m? (This may take a little bit of sleuthing–– you may want to search the company
-’s engineering blog or use sites like Stackshare to find this information.)
-
 ## Landscape:
 
-* What domain of the financial industry is the company in?
+**Industry Domains:** Bitcoin, Fintech, Payments
+
+### Industry Trends
 
 * What have been the major trends and innovations of this domain over the last 5
 -10 years?
