@@ -123,7 +123,7 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 
 ### Key Metrics
 
-#### Users
+#### 1. Users
 **Performance:**  
 **History:**  
 - 1,000,000 users [2022/03/30](https://blog.shakepay.com/one-million-shakers/)
@@ -134,7 +134,12 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 
 ![Users over time](images/shakepayusers-chart.png)
 
-#### Transactions
+
+#### 2. Trading Volume
+**Performance:**  
+**History:**  
+
+#### 3. Transactions
 **Performance:**  
 **History:**  
 - [2022/02/08](https://blog.shakepay.com/thanks-to-you-shakepay-sent-donations-to-the-mooooooon/): Shakepay users made at least 468,000 transactions using the Shakepay prepaid visa card between Dec 2021 - Feb 2022
