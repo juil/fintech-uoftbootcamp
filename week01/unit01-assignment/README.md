@@ -31,6 +31,8 @@ Originally launched through the BoostVC accelerator in 2015 as a way to load a c
 
 Now, 4 years after launching the Shakepay bitcoin exchange, the company has also released a digital VISA credit card that can spend the same $CAD in the account you use to purchase bitcoin, almost coming full circle to the founders' original vision.
 
+*([Brainstation Magazine](https://brainstation.io/magazine/the-fast-and-the-frictionless-building-a-cryptocurrency-exchange-with-shakepay))*
+
 **Industries:** Bitcoin, Fintech, Payments
 
 ## Business Activities:
@@ -142,6 +144,7 @@ ny?
 - [Crunchbase](https://www.crunchbase.com/organization/shakepay/)
 - [StatCan](https://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=PR&Code1=01&Geo2=PR&Code2=01&Data=Count&SearchText=Canada&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1)
 - [Stackshare](https://stackshare.io/shakepay/shakepay)
+- [Brainstation Magazine](https://brainstation.io/magazine/the-fast-and-the-frictionless-building-a-cryptocurrency-exchange-with-shakepay)
 - [decrypt - SEC Chair Gensler Again Says Bitcoin Is Not a Security. What About Ethereum?"](https://decrypt.co/103926/sec-chair-gensler-bitcoin-not-security-what-about-ethereum)
 - [Ethereum Foundation - DAPPS](https://ethereum.org/en/dapps/) 
 - [Hut8 - Investors/ESG](https://hut8mining.com/investors/environmental-social-and-governance/)
