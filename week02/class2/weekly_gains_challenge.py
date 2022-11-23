@@ -75,9 +75,13 @@ new_records = {
 
 # @TODO: Set each ticker's new record: date, open, high, low, close
 
-
-
-
+new_record_data = []
+ticker = {}
+for key in new_records:
+    ticker = new_records[key]
+    new_record_data.append([key, ticker['date'], ticker['open'],
+                            ticker['high'], ticker['low'],
+                            ticker['close']])
 
 # @TODO: Choice 1: Add a new round of entries to the 'historical_stock_data' dictionary
 
