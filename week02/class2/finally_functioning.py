@@ -12,10 +12,19 @@ ending_balance = 45000.00
 years = 1.0
 
 # Define a function called calculate_compound_growth_rate with three arguments: beginning_balance, ending_balance, years. Function should output growth_rate.
+def calculate_compound_growth_rate(beg_bal,end_bal,years):
+    return ((end_bal/beg_bal)**(1/years))-1
 
+def cagr(b, e, y):
+    return calculate_compound_growth_rate(b,e,y)
 
 # Call calculate_compound_growth_rate using beginning_balance, ending_balance, and years. Capture as year_one_growth.
-
+print('Year 1:')
+year_one_growth = cagr(beginning_balance, ending_balance, years)*100
+print(f'Beginning Balance: ${beginning_balance:.2f}\n' +
+      f'Ending Balance: ${ending_balance:.2f}\n' +
+      f'Years: {years:.1f}\n' +
+      f'CAGR: {year_one_growth:.2f}%')
 
 # Update beginning_balance and ending balance for year two, and then execute calculate_compound_growth_rate
 
@@ -36,7 +45,7 @@ years = 1.0
 # Challenge
 
 # Create a global, empty list
-
+growth_rates = []
 
 # Define a function called
 
