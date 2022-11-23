@@ -31,6 +31,8 @@ Originally launched through the BoostVC accelerator in 2015 as a way to load a c
 
 Now, 4 years after launching the Shakepay bitcoin exchange, the company has also released a digital VISA credit card that can spend the same $CAD in the account you use to purchase bitcoin, almost coming full circle to the founders' original vision.
 
+**Industries:** Bitcoin, Fintech, Payments
+
 ## Business Activities:
 
 * What specific financial problem is the company or project trying to solve?
