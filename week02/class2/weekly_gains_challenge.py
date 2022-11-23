@@ -90,12 +90,12 @@ for key in new_records:
 new = []
 for i in range(len(new_record_data)):
     new = new_record_data[i]
-    print(f'Add: {new}')
+    # print(f'Add: {new}')
     historical_stock_data[new[0]].append(new[1:])
-    print(f'New: {historical_data_new[new[0]}')
+    # print(f'New: {historical_stock_data[new[0]]}')
 
 # @TODO: Print out the modified 'historical_stock_data' dictionary
-print(f'New historical_stock_data:\n{historical_stock_data')
+print(f'New historical_stock_data:\n{historical_stock_data}')
 
 # @TODO: Initialize 'results' dictionary to hold weekly change of each ticker
 
