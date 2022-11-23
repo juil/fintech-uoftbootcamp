@@ -26,8 +26,8 @@ annualgrowth = 0
 def print_growthrate(beg_bal,end_bal,year):
     print(f'Year {int(year)}:')
     annualgrowth = cagr(beg_bal,end_bal,year)*100
-    print(f'Beginning Balance: ${beg_bal:.2f}\n' +
-          f'Ending Balance: ${end_bal:.2f}\n' +
+    print(f'Beginning Balance: ${beg_bal:,.2f}\n' +
+          f'Ending Balance: ${end_bal:,.2f}\n' +
           f'Years: {year:.1f}\n' +
           f'CAGR: {annualgrowth:.2f}%')
 
