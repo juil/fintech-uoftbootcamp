@@ -22,6 +22,7 @@ Roy Breidi - CTO
 **Funding:**
 Last funding round: Series A
 Total funding amount: **$36M**
+[Crunchbase](https://www.crunchbase.com/organization/shakepay)
 
 **Origin:**
 Originally launched through the BoostVC accelerator in 2015 as a way to load a credit card with bitcoin and spend it in physical retail stores, Shakepay had to pivot quickly when their partner bank and VISA ended their partnership. The solution? Skip a couple steps in their business plan and launch a bitcoin exchange.
