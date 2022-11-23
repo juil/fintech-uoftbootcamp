@@ -91,8 +91,14 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 
 ### Industry Trends
 
-* What have been the major trends and innovations of this domain over the last 5
--10 years?
+| Domain            	| 5 Years                                                                                                              	| 10 Years                                	|
+|-------------------	|----------------------------------------------------------------------------------------------------------------------	|-----------------------------------------	|
+| Bitcoin           	| Bitcoin ETFs (Canada), <br>ASIC mining, <br>renewable energy mining, <br>leveraged trading, <br>collateralized loans 	| Bitcoin mining,<br>self-custody         	|
+| Crypto Currencies 	| NFTs, dApps,<br>Risky high-yield yield farming, <br>collateralized loans, <br>Ponzi schemes                          	| crypto mining, <br>low transaction fees 	|
+| Payments          	| Mobile wallets, <br>Buy-now pay-later                                                                                	| Interac e-transfers, <br>NFC tap        	|
+| Fintech           	| App-only banking, <br>automatic investments, <br>all personal finance integration                                    	| Minimalist UI, <br>mobile appps         	|
+
+-*See [Sources](#Sources) for more details.*
 
 * What are the other major companies in this domain?
 
@@ -128,3 +134,4 @@ ny?
 - [decrypt - SEC Chair Gensler Again Says Bitcoin Is Not a Security. What About Ethereum?"](https://decrypt.co/103926/sec-chair-gensler-bitcoin-not-security-what-about-ethereum)
 - [Ethereum Foundation - DAPPS](https://ethereum.org/en/dapps/) 
 - [Hut8 - Investors/ESG](https://hut8mining.com/investors/environmental-social-and-governance/)
+
