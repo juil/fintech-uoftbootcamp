@@ -55,6 +55,18 @@ There aren't many good ways to spend one's bitcoin in the real world unless a re
 
 **Market Size:** 28 million Canadian adults
 
+### Solution
+
+#### Tech Stack
+
+**Crypto:**  
+- Bitcoin & Ethereum networks
+- Coinbase Custody in cold storage
+
+**Application:**  
+- Cloudflare
+- vue.js, animate.css, Bulma
+- [Stackshare](https://stackshare.io/shakepay/shakepay)
 
 * What solution does this company offer that their competitors do not or cannot
 offer? (What is the unfair advantage they utilize?)
