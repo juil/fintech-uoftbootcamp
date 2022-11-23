@@ -91,7 +91,7 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 
 ### Industry Trends
 
-| Domain            	| 5 Years                                                                                                              	| 10 Years                                	|
+| Domain            	| Last 5 Years                                                                                                        	| Last 10 Years                                	|
 |-------------------	|----------------------------------------------------------------------------------------------------------------------	|-----------------------------------------	|
 | Bitcoin           	| Bitcoin ETFs (Canada), <br>ASIC mining, <br>renewable energy mining, <br>leveraged trading, <br>collateralized loans 	| Bitcoin mining,<br>self-custody         	|
 | Crypto Currencies 	| NFTs, dApps,<br>Risky high-yield yield farming, <br>collateralized loans, <br>Ponzi schemes                          	| crypto mining, <br>low transaction fees 	|
