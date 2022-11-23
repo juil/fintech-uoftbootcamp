@@ -49,10 +49,12 @@ There aren't many good ways to spend one's bitcoin in the real world unless a re
 * Since the app is also an exchange, BTC and ETH can be sold anytime to top up the balance of the card.
 * $CAD balance in the app earns 4% interest.
 
-* What specific financial problem is the company or project trying to solve?
+### Customer
 
-* Who is the company's intended customer?  Is there any information about the ma
-rket size of this set of customers?
+**Target Market:** Canadian, casual crypto-user, wide adoption
+
+**Market Size:** 28 million Canadian adults
+
 
 * What solution does this company offer that their competitors do not or cannot
 offer? (What is the unfair advantage they utilize?)
