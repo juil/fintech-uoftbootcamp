@@ -44,7 +44,10 @@ Shakepay as an exchange makes it as easy as possible to purchase bitcoin (and et
 * Shakepay covers all transaction fees incurred when moving BTC off the app.
 
 #### Spending Bitcoin in the Real World
-
+There aren't many good ways to spend one's bitcoin in the real world unless a retail story intentionally goes through the trouble of setting up a custom terminal.
+* The app has a digital prepaid VISA credit card that can be added to digital wallets (ex. Google Wallet, ApplePay) and then tapped in physical retail stores to pay for goods & services.
+* Since the app is also an exchange, BTC and ETH can be sold anytime to top up the balance of the card.
+* $CAD balance in the app earns 4% interest.
 
 * What specific financial problem is the company or project trying to solve?
 
