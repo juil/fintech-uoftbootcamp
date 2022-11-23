@@ -1,5 +1,13 @@
 # Useful Python
 
+## Resources
+
+### Courses
+
+freeCodeCamp.org - [Python beginner course (4.5hr)](https://www.youtube.com/watch?v=rfscVS0vtbw)
+
+## Commands
+
 ### Iterate through dictionary
 
 ```
