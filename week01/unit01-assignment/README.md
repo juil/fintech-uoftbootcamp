@@ -4,6 +4,8 @@
 *by Juil Yoon for **UofT Fintech Bootcamp 2022***
 due Thursday 2022/11/24
 
+![Shakepay Logo](images/shakepay-logo.png)
+
 ## Overview and Origin
 
 **Name:** Shakepay Inc.
