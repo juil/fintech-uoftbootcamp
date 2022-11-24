@@ -141,7 +141,12 @@ Users are also very active due to Shakepays **#ShakingSats** program that pays e
 
 #### 2. Trading Volume
 **Performance:**  
+Shakepay consistently has one of the lowest costs for Canadians trading Bitcoin (see [Cryptolens](https://cryptolens.ca/)). This is on top of having free deposits/withrawals through Interac eTransfer and no trading fees (though there is a spread).
+
+Shakepay was also one of the first to implement recurring buys (daily, weekly, monthly purchase of the same amount) in Canada allowing users to dollar-cost-average into BTC and ETH which are extremely volatile assets.
+
 **History:**  
+Unfortunately, since Shakepay is still a private company, they do not publish all details such as trading volume to the public. However, considering there are consistently new [job openings](https://shakepay.com/careers?lang=en#openings) advertised on their website, it seems they are generating significant revenue, which mostly comes from the buy/sell spread.
 
 #### 3. Transactions
 **Performance:**  
@@ -182,4 +187,5 @@ ny?
 - [decrypt - SEC Chair Gensler Again Says Bitcoin Is Not a Security. What About Ethereum?"](https://decrypt.co/103926/sec-chair-gensler-bitcoin-not-security-what-about-ethereum)
 - [Ethereum Foundation - DAPPS](https://ethereum.org/en/dapps/) 
 - [Hut8 - Investors/ESG](https://hut8mining.com/investors/environmental-social-and-governance/)
+- [Cryptolens - Canadian Bitcoin purchase rates](https://cryptolens.ca/)
 
