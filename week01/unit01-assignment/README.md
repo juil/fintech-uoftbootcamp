@@ -119,7 +119,7 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 
 *Shakepay is a private company so most standard business metrics are not readily available quarter to quarter.*
 
-### Impact
+### Impact #TODO
 
 ### Key Metrics
 
@@ -165,13 +165,17 @@ Top 10 teams earned 18,165 sats on average this week.
 
 ### Compared to the Competition
 
+#### Users
+- Newton had 200,000 users in [May 2021](https://www.newton.co/blog/200k-users). Shakepay had 3x that number at the same time period.
+- 
 
-* What has been the business impact of this company so far?
+#### Unique Features
 
-* What are some of the core metrics that companies in this domain use to measure
- success? How is your company performing, based on these metrics?
+There are currently no Canadian companies offering a crypto enabled credit card besides Shakepay. They are market leaders in this aspect.
 
-* How is your company performing relative to competitors in the same domain?
+Because Shakepay only offers BTC and ETH on its exchange, they are also able to offer zero fee buys & sells with low spreads. (See [CryptoLens](https://cryptolens.ca/))
+
+Shakepay recently started offering [4% APY](https://blog.shakepay.com/win-at-waiting-for-shakepay-earn/) on a Canadian Dollar balance (up to $1000). Nobody is offering such competitive rates, especially not on Canadian dollars and particularly without having to lock it up.
 
 ## Recommendations
 
@@ -198,4 +202,5 @@ ny?
 - [Ethereum Foundation - DAPPS](https://ethereum.org/en/dapps/) 
 - [Hut8 - Investors/ESG](https://hut8mining.com/investors/environmental-social-and-governance/)
 - [Cryptolens - Canadian Bitcoin purchase rates](https://cryptolens.ca/)
-
+- [Fortunly - Average US Credit Card Use](https://fortunly.com/statistics/cash-versus-credit-card-spending-statistics/)
+- [Shakepay Earn](https://blog.shakepay.com/win-at-waiting-for-shakepay-earn/)
