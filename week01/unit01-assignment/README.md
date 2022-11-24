@@ -148,10 +148,20 @@ Shakepay was also one of the first to implement recurring buys (daily, weekly, m
 **History:**  
 Unfortunately, since Shakepay is still a private company, they do not publish all details such as trading volume to the public. However, considering there are consistently new [job openings](https://shakepay.com/careers?lang=en#openings) advertised on their website, it seems they are generating significant revenue, which mostly comes from the buy/sell spread.
 
-#### 3. Transactions
+#### 3. Visa Transactions
 **Performance:**  
+A [#ShakeSquad](https://help.shakepay.com/en/articles/6280233-introducing-shakesquads) is composed of 4 Shakepay users that earned $sats daily based on the cumulative number of Visa card transactions from the group. Each member earns 42 bonus sats for each transaction. This means the top 10 groups during the week of Nov 11, 2022 (see data below) made an average of 108 transactions person. Americans make [an average 41 payments per month](https://fortunly.com/statistics/cash-versus-credit-card-spending-statistics/), meaning this group of Shakepay users were making double the average number of transactions using their Shakepay Visa card.  
+([Spreadsheet](https://docs.google.com/spreadsheets/d/1SZp5FE3jvfNfD-ABra0b5Q5SFewMrxFQunLCnv4jviY/edit?usp=sharing))
+
 **History:**  
+- Same issue as [Trading Volume](#2.-Trading-Volume): limited public data, but we will work with what we have.
+- [2022/11/16](https://www.reddit.com/r/shakepay/comments/yxa0xs/weekly_shakesquad_leaderboard_coming_in_good_to/): Weekly ShakeSquad leaderboard of sats earned.  
+Top 10 teams earned 18,165 sats on average this week.
+
+![Nov 16, 2022 ShakeSquad Leaderboard](images/shakesquad-leaderboard-weekly.png)
+
 - [2022/02/08](https://blog.shakepay.com/thanks-to-you-shakepay-sent-donations-to-the-mooooooon/): Shakepay users made at least 468,000 transactions using the Shakepay prepaid visa card between Dec 2021 - Feb 2022
+
 
 ### Compared to the Competition
 
