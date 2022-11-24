@@ -125,6 +125,10 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 
 #### 1. Users
 **Performance:**  
+Shakepay has seen linear growth in numbers over the last couple years but the slope has been very steep with a 163% year-over-year increase in March 2022.
+
+Users are also very active due to Shakepays **#ShakingSats** program that pays each user a small, incrementally increasing (based on daily streak), reward in sats for shaking your phone once a day.
+
 **History:**  
 - 1,000,000 users [2022/03/30](https://blog.shakepay.com/one-million-shakers/)
 - 800,000 users [2021/11/10](https://blog.shakepay.com/2-of-canadians-are-now-using-shakepay/)
