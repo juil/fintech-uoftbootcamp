@@ -7,26 +7,30 @@ row of the file to calculate customer sales averages.
 """
 
 # @TODO: Import the pathlib and csv library
-
+from pathlib import Path
+import csv
 
 
 # @TODO: Set the file path
-
+filepath = Path().absolute() / 'sales.csv'
+print(filepath)
+print(f'Exists? {filepath.exists()}')
 
 # @TODO: Initialize dictionary
-
+records = {}
 
 # @TODO: Open the csv file as an object
-
+with open(filepath, 'r') as sales:
     # @TODO:
     # Pass in the csv file to the csv.reader() function
     # (with ',' as the delmiter/separator) and return the csvreader object
-
+    csvreader = csv.reader(sales,delimiter=',')
 
     # @TODO: Read the header row first (skip this step if there is no header)
+    header = next(csvreader)
 
     # @TODO: Print the header
-
+    print(f'Header: {header})
 
     # @TODO: Read each row of data after the header
 
