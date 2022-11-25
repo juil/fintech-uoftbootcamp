@@ -1,5 +1,13 @@
 # Useful Python
 
+## Libraries
+
+NumPy-Financial
+	import numpy_financial as np
+
+PathLib
+	from pathlib import Path
+
 ### Iterate through dictionary
 
 ```
