@@ -110,6 +110,7 @@ These are all loss-leaders, but Shakepay has garnered a very loyal base of **dai
 - [Wealthsimple](https://my.wealthsimple.com/app/public/trade-referral-signup?code=DR3KXW)
 
 #### International
+- [Crypto.com](https://crypto.com/app/qwjkk823yf)
 - [Coinbase](https://www.coinbase.com/)
 - [Cake Defi](https://cakedefi.com/?ref=780045)
 - [Kraken](https://www.kraken.com/)
@@ -168,10 +169,11 @@ Top 10 teams earned 18,165 sats on average this week.
 #### Users
 - Newton had 200,000 users in [May 2021](https://www.newton.co/blog/200k-users). Shakepay had 3x that number at the same time period.
 - Wealthsimple passsed 2,000,000 users in [May 2021](https://www.businessinsider.com/wealthsimple-hits-2-million-canadian-users-amid-neobanking-push-2021-5). This is 3x Shakepay's user base at the same time. However, Wealthsimple as a service focused more on ETF investing and stock trading before adding crypto capabilities to their product, and the number of users who actually buy/sell crypto on Wealthsimple is unknown.
+- Crypto.com had 10 million users worldwide in [March 2021](https://www.newswire.ca/news-releases/crypto-com-visa-card-spending-grew-55-per-user-in-2020-online-spending-up-117--852927029.html). The biggest user base is in teh US and UK, while Canadian data is not broken down separately.
 
 #### Unique Features
 
-There are currently no Canadian companies offering a crypto enabled credit card besides Shakepay. They are market leaders in this aspect.
+There are currently no Canadian companies offering a crypto enabled credit card besides Shakepay. They are market leaders in this aspect. Crypto.com currently offers a similar prepaid Visa credit card to Canadians, but it requires a [$5000 stake of the CRO token](https://crypto.com/us/cards) in order to get similar benefits (which will be ending in 2023)
 
 Because Shakepay only offers BTC and ETH on its exchange, they are also able to offer zero fee buys & sells with low spreads. (See [CryptoLens](https://cryptolens.ca/))
 
@@ -205,3 +207,5 @@ ny?
 - [Fortunly - Average US Credit Card Use](https://fortunly.com/statistics/cash-versus-credit-card-spending-statistics/)
 - [Shakepay Earn](https://blog.shakepay.com/win-at-waiting-for-shakepay-earn/)
 - [Business Insider - Wealthsimple users](https://www.businessinsider.com/wealthsimple-hits-2-million-canadian-users-amid-neobanking-push-2021-5)
+- [Newswire - Crypto.com visa card spending](https://www.newswire.ca/news-releases/crypto-com-visa-card-spending-grew-55-per-user-in-2020-online-spending-up-117--852927029.html)
+- [Crypto.com Visa Cards](https://crypto.com/us/cards)
