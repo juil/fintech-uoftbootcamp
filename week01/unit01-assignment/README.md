@@ -181,16 +181,19 @@ Shakepay recently started offering [4% APY](https://blog.shakepay.com/win-at-wai
 
 ## Recommendations
 
-* If you were to advise the company, what products or services would you suggest
- they offer? (This could be something that a competitor offers, or use your imag
-ination!)
+### Collateralized Spending Credit
+Crypto.com currently offers a [collateralized spending credit](https://crypto.com/product-news/spending-power-is-now-available-in-canada) on their prepaid Visa card. It should be fairly straightforward to offer a similar feature to Shakepay card users.
 
-* Why do you think that offering this product or service would benefit the compa
-ny?
+**Benefits:** Although this goes against the ethos of self-custody, the feature would encourage more users to keep their assets on the app and increase Shakepay's assets-under-management (AUM). Shakepay could also increase revenue by charging interest on credit balances.
 
-* What technologies would this additional product or service utilize?
+**Technology:** This feature would not require much more technology to implement.
 
-* Why are these technologies appropriate for your solution?
+### Bitcoin & Ethereum Staking
+Users would be able to stake BTC and ETH as a pool to earn yield on their crypto without the technological literacy needed to setup a defi wallet and stake in a protocol or having to research which protocols are reliable.
+
+**Benefits:** Same as [collateralized spending](#collateralized-spending-credit).
+
+**Technology:** Would require a defi integration.
 
 ## Sources
 
