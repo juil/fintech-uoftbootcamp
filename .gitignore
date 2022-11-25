@@ -6,3 +6,5 @@
 .ipynb*
 # Ignore temp swap files
 *.swp
+# Ignore python cache files
+*.pyc
