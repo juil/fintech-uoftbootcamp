@@ -167,7 +167,7 @@ Top 10 teams earned 18,165 sats on average this week.
 
 #### Users
 - Newton had 200,000 users in [May 2021](https://www.newton.co/blog/200k-users). Shakepay had 3x that number at the same time period.
-- 
+- Wealthsimple passsed 2,000,000 users in [May 2021](https://www.businessinsider.com/wealthsimple-hits-2-million-canadian-users-amid-neobanking-push-2021-5). This is 3x Shakepay's user base at the same time. However, Wealthsimple as a service focused more on ETF investing and stock trading before adding crypto capabilities to their product, and the number of users who actually buy/sell crypto on Wealthsimple is unknown.
 
 #### Unique Features
 
@@ -204,3 +204,4 @@ ny?
 - [Cryptolens - Canadian Bitcoin purchase rates](https://cryptolens.ca/)
 - [Fortunly - Average US Credit Card Use](https://fortunly.com/statistics/cash-versus-credit-card-spending-statistics/)
 - [Shakepay Earn](https://blog.shakepay.com/win-at-waiting-for-shakepay-earn/)
+- [Business Insider - Wealthsimple users](https://www.businessinsider.com/wealthsimple-hits-2-million-canadian-users-amid-neobanking-push-2021-5)
