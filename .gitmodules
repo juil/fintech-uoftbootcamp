@@ -1,0 +1,3 @@
+[submodule "assignments/unit02-assignment/python-homework"]
+	path = assignments/unit02-assignment/python-homework
+	url = git@github.com:juil/python-homework.git
