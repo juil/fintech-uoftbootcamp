@@ -17,7 +17,7 @@ print(filepath)
 print(f'Exists? {filepath.exists()}')
 
 # @TODO: Initialize dictionary
-records = {}
+analysis = {}
 
 # @TODO: Open the csv file as an object
 with open(filepath, 'r') as sales:
@@ -33,40 +33,52 @@ with open(filepath, 'r') as sales:
     print(f'Header: {header}')
 
     # @TODO: Read each row of data after the header
-
+    for i in csvreader:
         # @TODO: Print the row
-
+        # print(f'{i}')
         # @TODO:
         # Set the 'name', 'count', and 'revenue' variables for better
         # readability, convert strings to ints for numerical calculations
-
-
-
+        name = i[0]
+        count = int(i[1])
+        revenue = int(i[2])
 
         # @TODO: Calculate the average and round to the nearest 2 decimal places
-
+        average = round(revenue/count, 2)
         # @TODO:
         # If name is not already in the analysis dict, initialize the dictionary
         # Else continue to add to the existing key and nested key-value pairs
-
-
-
-
+        if analysis.get(name) == None:
+            analysis.update({name:  
+                           {'count': count, 'revenue': revenue, 
+                            'average': average}})
+            print(f'Add {name}: {analysis[name]}')
+        else:
+            analysis[name]['count'] += count
+            analysis[name]['revenue'] += revenue
+            analysis[name]['average'] = round(analysis[name]['revenue'] / analysis[name]['count'], 2)
+            print(f'Update {name}: {analysis[name]}')
 
 
 # @TODO: Set the header for aggregate.csv
-
+header = ['name', 'count', 'revenue', 'average']
 
 # @TODO: Set the path for the aggregate.csv
-
+outputpath = Path().absolute() / 'resources/aggregate.csv'
 # @TODO:
 # Open the output path as a file and pass into the 'csv.writer()' function
 # Set the delimiter/separater as a ','
-
-
+with open(outputpath, 'w') as csvfile:
+    # csvwriter = csv.DictWriter(csvfile,fieldnames=header)
+    csvwriter = csv.writer(csvfile,delimiter=',')
 
     # @TODO: Write the header as the first row
-
+    # csvwriter.writeheader()
+    csvwriter.writerow(header)
     # @TODO:
     # Loop over every key in analysis and write the associated key (name) and
     # nested key-value pairs (metrics)
+    # csvwriter.writerows(analysis)
+    for key in analysis: 
+        rep = analysis[key]
+        csvwriter.writerow([key,rep['count'],rep['revenue'],rep['average']])
