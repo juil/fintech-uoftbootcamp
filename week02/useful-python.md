@@ -4,7 +4,12 @@
 
 ### Courses
 
-freeCodeCamp.org - [Python beginner course (4.5hr)](https://www.youtube.com/watch?v=rfscVS0vtbw)
+- freeCodeCamp.org - [Python beginner course (4.5hr)](https://www.youtube.com/watch?v=rfscVS0vtbw)
+- https://www.youtube.com/@freecodecamp - a YouTube channel with thousands of hours of free programming tutorials
+- https://www.edx.org/course/introduction-computer-science-harvardx-cs50x - Harvard University's intro to Computer Science (also free)
+- https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&f=Lecture%20Videos&q=computer - Free access to MIT lectures, highly informational
+- Recommended by Jonathan Coleman
+
 
 ### Books
 
