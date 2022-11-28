@@ -12,7 +12,7 @@ import csv
 
 
 # @TODO: Set the file path
-filepath = Path().absolute() / 'sales.csv'
+filepath = Path().absolute() / 'resources/sales.csv'
 print(filepath)
 print(f'Exists? {filepath.exists()}')
 
@@ -30,7 +30,7 @@ with open(filepath, 'r') as sales:
     header = next(csvreader)
 
     # @TODO: Print the header
-    print(f'Header: {header})
+    print(f'Header: {header}')
 
     # @TODO: Read each row of data after the header
 

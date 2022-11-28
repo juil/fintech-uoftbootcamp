@@ -18,7 +18,7 @@ dir_path = Path().absolute()
 print(dir_path)
 
 # @TODO: Set the path using Pathlib
-customer_traffic_path = dir_path / 'customer_traffic.txt'
+customer_traffic_path = dir_path / 'resources/customer_traffic.txt'
 print(customer_traffic_path)
 
 # Initialize variables
