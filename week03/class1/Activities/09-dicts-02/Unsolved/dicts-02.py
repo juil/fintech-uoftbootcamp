@@ -1,5 +1,6 @@
 # Use the `from` keyword to import the `shows` dictionary from the `show_data.py` file
-
+from show_data import shows
+print(shows)
 
 # QUESTION 1: Who is the actor that plays Squidward in Spongebob (kids)?
 
