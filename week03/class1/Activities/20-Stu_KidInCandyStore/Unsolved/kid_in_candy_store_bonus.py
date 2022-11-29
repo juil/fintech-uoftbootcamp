@@ -18,23 +18,27 @@ allowance = 5
 candy_cart = []
 
 # Print all of the candies to the screen and their index in brackets
-
+for i in range(len(candy_list)):
+    print(f"[{i}] {candy_list[i]}")
 
 # Set answer to "yes" for while loop
-
+answer = True
+while answer:
 
 
     # Ask which candy the user would like to bring ho
-
+    candy = int(input("Which candy? "))
     
 
     # Add the candy at the index chosen to the candy_cart list
-
+    candy_cart.append(candy_list[candy]) 
     
 
     # ask the user if they want more candy
-
+    if input("Do you want more? [y/n]: ") == 'n':
+        answer = False
     
 
 # Loop through the candy_cart to say what candies were brought home
-
+for i in candy_cart:
+    print(i)
