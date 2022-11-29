@@ -32,16 +32,23 @@
 num_list = [2, 65, 3, 7, 39, 22, 11, 94, 299, 9, 20, 21, 51, 37]
 
 # Iterate through the provided `num_list` and create an if-else statement to print every number greater than 50
-
+print(num_list)
+print("Every number above 50:")
+for i in num_list:
+    if i > 50: print(i)
 
 # Iterate through the provided `num_list` and use the `index` function to print the index of the first occurrence of the number 11.
-
+print(f"The number 11 occurs at index #: {num_list.index(11)}")
 
 # Iterate through the provided `num_list` and print the sum of all the numbers.
-
+print(f"Sum = {sum(num_list)}")
 
 # Iterate through the provided `num_list` and create an if-else statement to print the sum of all the numbers greater than 50.
-
+sumover50 = 0
+for i in num_list: 
+    if i > 50: 
+        sumover50 += i
+print(f"Sum over 50 = {sumover50}")
 
 # Iterate through the provided `num_list` and create an if-else statement to print the sum of all the even numbers.
 
@@ -57,18 +64,24 @@ fruits = [
 
 
 # Iterate through the provided `fruits` list and print the number of fruits that start with "P" in the list.
-
+num_p = 0
+for i in fruits:
+    if i[0] == 'P':
+        num_p += 1
+print(f"There are {num_p} P fruits.")
 
 ## Challenge
 
 # Create a new empty list named `unique_fruits`.
-
+unique_fruits = []
 
 # Iterate through `fruits` and populate `unique_fruits` with only unique values from `fruits`. Hint: try looking up "not in" conditionals for if statements
-
+for i in fruits:
+    if unique_fruits.count(i) == 0:
+        unique_fruits.append(i)
 
 # Print out the `unique_fruits` list.
-
+print(f"Unique fruits: {unique_fruits}")
 
 # In this challenge we're going to be working with nested lists.
 # You can store any type of data within an list- even other lists!
