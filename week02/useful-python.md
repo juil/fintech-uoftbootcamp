@@ -47,6 +47,9 @@ with open(filename, 'w') as csvfile:
 ```
 https://www.geeksforgeeks.org/writing-csv-files-in-python/
 
+Pandas
+	conda install pandas
+
 ## Iterate through dictionary
 
 ```
