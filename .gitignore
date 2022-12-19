@@ -8,6 +8,8 @@
 *.swp
 # Ignore python cache files
 *.pyc
+# Ignore .env files
+.env
 
 # Bootcamp
 ## Instructor files
