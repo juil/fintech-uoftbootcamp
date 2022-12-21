@@ -9,7 +9,7 @@
 # Ignore python cache files
 *.pyc
 # Ignore .env files
-.env
+*.env
 
 # Bootcamp
 ## Instructor files
