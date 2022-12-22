@@ -64,6 +64,10 @@ $ git commit -c ORIG_HEAD                      # (4)
 [StackOverflow](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
 
 ```
+## Git Branches
+
+[How to organize branches](https://dev.to/hardkoded/how-to-organize-your-git-branches-4dci)
+
 ## Submodules
 
 ```
