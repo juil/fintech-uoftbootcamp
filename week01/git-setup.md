@@ -43,9 +43,11 @@ git commit -m 'Merge'
 git branch -d branchname
 # Remote
 git push origin --delete branchname
+git push origin :branchname #short version
 # List git Branches
 git branch -a
 git branch --merged
+
 # Keep record with tags
 git tag tagname
 git push --tags
@@ -61,19 +63,23 @@ $ git commit -c ORIG_HEAD                      # (4)
 
 [StackOverflow](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
 
+```
+## Git Branches
 
-# Submodules
+[How to organize branches](https://dev.to/hardkoded/how-to-organize-your-git-branches-4dci)
+
+## Submodules
 
 ```
 git submodule add https://github.com/<user>/rock rock
 
 git clone --recursive <project url>
 ```
-https://dev.to/jjokah/submodules-a-git-repo-inside-a-git-repo-36l9
+[https://dev.to/jjokah/submodules-a-git-repo-inside-a-git-repo-36l9]
 
-# Github CLI
+## Github CLI
 
-## Create repo
+### Create repo
 ```
 # create a repository interactively
 gh repo create
