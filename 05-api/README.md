@@ -10,3 +10,7 @@ UofT Fintech Bootcamp
 - [Nasdaq](data.nasdaq.com)
 	- `https://data.nadaq.com`
 - Yahoo Finance
+
+## HTTP Response Status Codes
+
+[mdm web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
