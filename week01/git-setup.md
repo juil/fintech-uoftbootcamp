@@ -43,9 +43,11 @@ git commit -m 'Merge'
 git branch -d branchname
 # Remote
 git push origin --delete branchname
+git push origin :branchname #short version
 # List git Branches
 git branch -a
 git branch --merged
+
 # Keep record with tags
 git tag tagname
 git push --tags
