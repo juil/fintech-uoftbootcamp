@@ -1,5 +1,9 @@
 # Categorical Property Evaluation
 
+---
+**Note:** `Resources/allegheny_property_assessments.csv` file is too large for Github so it was removed.
+---
+
 On August 1, Allegheny County released its 2019 real estate property assessment report. Read in the data using Pandas and plot it using a **parallel categories** plot to analyze the attributes that have a large impact on evaluated housing prices. Interact with the plot to identify key trends and patterns in each dimension.
 
 If you finish early, complete the challenge section. If you're feeling confident in your story, volunteer to present your findings and lead the activity review module.
