@@ -61,19 +61,19 @@ $ git commit -c ORIG_HEAD                      # (4)
 
 [StackOverflow](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
 
-
-# Submodules
+```
+## Submodules
 
 ```
 git submodule add https://github.com/<user>/rock rock
 
 git clone --recursive <project url>
 ```
-https://dev.to/jjokah/submodules-a-git-repo-inside-a-git-repo-36l9
+[https://dev.to/jjokah/submodules-a-git-repo-inside-a-git-repo-36l9]
 
-# Github CLI
+## Github CLI
 
-## Create repo
+### Create repo
 ```
 # create a repository interactively
 gh repo create
