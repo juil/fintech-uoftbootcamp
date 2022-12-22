@@ -1,6 +1,9 @@
 # Unit 05 - API
 UofT Fintech Bootcamp
 
+## Useful APIs
+- [Wolfram|Alpha](https://products.wolframalpha.com/api)
+
 ## Useful Data Sources
 - [World Bank](http://api.worldbank.org/)
 	- ex. `http://api.worldbank.org/v2/country/ca/indicator/NY.GDP.MKTP.CD?format=json`
@@ -14,3 +17,6 @@ UofT Fintech Bootcamp
 ## HTTP Response Status Codes
 
 [mdm web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+
+## Other Useful Tools
+- [Chat GPT](https://chat.openai.com/chat) - OpenAI
