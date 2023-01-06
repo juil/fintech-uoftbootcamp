@@ -4,6 +4,13 @@
 
 ### psql: Command line tool
 
+[Homebrew](https://wiki.postgresql.org/wiki/Homebrew)
+```
+$ brew install postgresql
+$ brew services start postgresql # or "brew services run postgresql" to have it not restart at boot time
+# or the pg_ctl command it mentions
+```
+
 [Cheat sheet](https://tomcam.github.io/postgres/)
 
 ### Useful Notes
