@@ -52,13 +52,14 @@ brew install pygments
 ```
 alias ccat='pygmentize -g -P style=vim'
 ```
+[*](https://coderwall.com/p/o6_ong/cat-syntax-highlighting)
 
 `.bashprofile` or `.zshrc`
 
 ```
 export LESSOPEN='| pygmentize -g -P style=vim %s`
 ```
-
+[*](https://askubuntu.com/questions/406135/how-to-use-pygmentize-automatically-with-less)
 
 ## Primary Tools
 
