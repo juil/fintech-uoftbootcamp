@@ -16,3 +16,5 @@ CREATE TABLE sales (
 select sales_id, loan_amount from sales
 where loan_amount > 300000;
 
+-- Find the average loan amount of all sales records
+select avg(loan_amount) from sales;
