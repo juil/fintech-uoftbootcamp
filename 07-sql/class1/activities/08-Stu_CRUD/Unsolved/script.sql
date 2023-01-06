@@ -44,3 +44,9 @@ values (101, 101, 2, 734544, '1995-10-05');
 select * from sales
 where sales_id = 101;
 
+-- Delete data
+delete from sales 
+where sales_id = 72;
+
+select * from sales 
+where sales_id = 72;
