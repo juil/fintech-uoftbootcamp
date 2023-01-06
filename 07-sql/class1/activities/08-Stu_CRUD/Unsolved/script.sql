@@ -15,6 +15,8 @@ CREATE TABLE sales (
 -- Load table data 
 copy sales from '/Users/juil/school/fintech-uoftbootcamp/classwork/07-sql/class1/activities/08-Stu_CRUD/Resources/sales.csv' with (FORMAT csv);
 
+select * from sales;
+
 -- Return records with loan amounts less than $300,000
 select sales_id, loan_amount from sales
 where loan_amount > 300000;
@@ -29,3 +31,9 @@ where sales_id = 33;
 update sales 
 set loan_amount = 423212
 where sales_id = 33;
+
+-- Add new boolean column loan_distributed with default: True
+alter table sales
+add column loan_distributed BOOLEAN default true;
+
+
