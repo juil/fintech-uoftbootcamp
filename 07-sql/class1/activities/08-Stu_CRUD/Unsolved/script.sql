@@ -36,4 +36,11 @@ where sales_id = 33;
 alter table sales
 add column loan_distributed BOOLEAN default true;
 
+-- Insert new record
+insert into sales 
+(sales_id, payment_id, mortgage_id, loan_amount, loan_date)
+values (101, 101, 2, 734544, '1995-10-05');
+
+select * from sales
+where sales_id = 101;
 
