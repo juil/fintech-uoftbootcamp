@@ -53,4 +53,9 @@ where bank_name = 'Wells Fargo';
 select * from banks;
 
 -- Add column to table with default value
+alter table banks 
+add mortgage_lending BOOLEAN default true;
+
+select * from banks;
+
 
