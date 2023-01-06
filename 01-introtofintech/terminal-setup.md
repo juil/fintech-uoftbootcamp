@@ -32,11 +32,33 @@ edit your `~/.zshrc` and set `ZSH_THEME="powerlevel10k/powerlevel10k"`
 
 ### Syntax highlighting
 
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
 
 Activate the plugin in `~/.zshrc`
 
-	plugins=( [plugins...] zsh-syntax-highlighting)
+```plugins=( [plugins...] zsh-syntax-highlighting)
+```
+
+**Pygments**
+[github](https://github.com/pygments/pygments)
+
+```
+brew install pygments
+```
+
+`.aliases`
+
+```
+alias ccat='pygmentize -g -P style=vim'
+```
+
+`.bashprofile` or `.zshrc`
+
+```
+export LESSOPEN='| pygmentize -g -P style=vim %s`
+```
+
 
 ## Primary Tools
 
