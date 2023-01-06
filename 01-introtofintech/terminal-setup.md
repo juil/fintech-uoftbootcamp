@@ -61,6 +61,16 @@ export LESSOPEN='| pygmentize -g -P style=vim %s`
 ```
 [*](https://askubuntu.com/questions/406135/how-to-use-pygmentize-automatically-with-less)
 
+### mdcat
+Render markdown files in terminal.
+
+	brew install mdcat
+
+`.aliases`
+```
+alias mdless='mdcat -p'
+```
+
 ## Primary Tools
 
 ### Vim
@@ -69,7 +79,3 @@ export LESSOPEN='| pygmentize -g -P style=vim %s`
 - [Using git in vim](https://www.vimfromscratch.com/articles/using-git-from-vim)
 ## Other Command Line Tools
 
-### mdcat
-Render markdown files in terminal.
-
-	brew install mdcat
