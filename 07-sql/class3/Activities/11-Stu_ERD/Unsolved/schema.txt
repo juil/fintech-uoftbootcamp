@@ -1,0 +1,38 @@
+Customer
+-
+customer_id PK
+first_name
+last_name
+gender
+age
+address
+city
+state
+zip_code
+
+Banks
+-
+bank_id PK
+bank_name
+bank_routing_number
+
+Sales
+-
+sales_id PK
+payment_id FK >- Payments.payment_id
+mortgage_id FK - Mortgage.mortgage_id
+loan_amount
+loan_date
+
+Payments
+-
+payment_id PK
+bank_number
+bank_routing_number FK - Banks.bank_routing_number
+customer_id FK -< Customer.customer_id
+
+Mortgage
+-
+mortgage_id PK
+mortgage_name
+mortgage_rate

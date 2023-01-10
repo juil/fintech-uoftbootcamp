@@ -1,0 +1,38 @@
+Customer
+-
+customer_id INT PK
+first_name VARCHAR(255)
+last_name VARCHAR(255)
+gender VARCHAR(255)
+age INT
+address VARCHAR(255)
+city VARCHAR(255)
+state VARCHAR(255)
+zip_code INT
+
+Banks
+-
+bank_id INT 
+bank_name VARCHAR(255)
+bank_routing_number BIGINT PK
+
+Sales
+-
+sales_id INT PK
+payment_id INT FK >- Payments.payment_id
+mortgage_id INT FK - Mortgage.mortgage_id
+loan_amount INT
+loan_date DATE
+
+Payments
+-
+payment_id INT PK
+bank_number BIGINT
+bank_routing_number BIGINT FK - Banks.bank_routing_number
+customer_id INT FK -< Customer.customer_id
+
+Mortgage
+-
+mortgage_id INT PK
+mortgage_name VARCHAR(255)
+mortgage_rate FLOAT
