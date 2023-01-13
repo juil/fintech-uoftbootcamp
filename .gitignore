@@ -4,6 +4,8 @@
 *.ln
 # Ignore python checkpoints
 .ipynb*
+# Ignore Workspace files
+*.code-workspace
 # Ignore temp swap files
 *.swp
 # Ignore python cache files
