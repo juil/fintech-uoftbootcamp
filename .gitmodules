@@ -1,3 +1,6 @@
 [submodule "assignments/unit02-assignment/python-homework"]
 	path = assignments/unit02-assignment/python-homework
 	url = git@github.com:juil/python-homework.git
+[submodule "assignments/unit06-assignment/rentalanalysis"]
+	path = assignments/unit06-assignment/rentalanalysis
+	url = git@github.com:juil/rentalanalysis
