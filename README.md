@@ -21,3 +21,6 @@
 
 [rentalanalysis](github.com/juil/rentalanalysis)
 
+### Unit 07: Credit Card Fraud Detection
+
+[ccfraudster](github.com/juil/ccfraudster)
