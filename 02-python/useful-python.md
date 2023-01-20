@@ -27,6 +27,18 @@ Python Crash Course - Eric Matthes [[Amazon](https://www.amazon.ca/Python-Crash-
 
 ## Libraries
 
+### conda
+
+Fix env issues:
+```
+conda config --set auto_activate_base false
+history | grep "conda config --set"
+# Deactivate until base env is deactivated.
+conda deactivate
+conda activate your_env
+```
+-[stackoverflow](https://stackoverflow.com/a/60180578/745776)
+
 NumPy-Financial
 	import numpy_financial as np
 
