@@ -17,4 +17,7 @@
 
 [Case Study](week01/unit01-assignment)
 
+### Unit 06: Rental Analysis
+
+[rentalanalysis](github.com/juil/rentalanalysis)
 
