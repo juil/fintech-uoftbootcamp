@@ -5,5 +5,5 @@
 	path = assignments/unit06-assignment/rentalanalysis
 	url = git@github.com:juil/rentalanalysis
 [submodule "projects/project01/fintech-project01"]
-	path = projects/project01/fintech-project01
+	path = projects/project01/canhomeowner
 	url = git@github.com:juil/fintech-project01
