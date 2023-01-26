@@ -1,15 +1,10 @@
 # UofT FinTech Bootcamp
-*Assignments by Juil Yoon*
-
-## Course Content
-
-[Gitlab](https://utoronto.bootcampcontent.com/utoronto-bootcamp/UTOR-VIRT-FIN-PT-11-2022-U-LOLC/)
 
 ## Projects
 
-### Project 01: Rent vs. Homeownership
+### Project 01: Canadian Home Ownership
 
-[fintech-project01](github.com/juil/fintech-project01)
+[canhomeowner](github.com/ft-p1team05/canhomeowner)
 
 ## Assignments
 
@@ -24,3 +19,7 @@
 ### Unit 07: Credit Card Fraud Detection
 
 [ccfraudster](github.com/juil/ccfraudster)
+
+## Course Content
+
+[Gitlab](https://utoronto.bootcampcontent.com/utoronto-bootcamp/UTOR-VIRT-FIN-PT-11-2022-U-LOLC/)
