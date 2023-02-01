@@ -1,5 +1,14 @@
 # Useful Python
 
+## Bootstrap Environment
+
+```
+# pipx: Python app envrionment and package manager
+# https://pypa.github.io/pipx/
+brew install pipx
+pipx ensurepath
+```
+
 ## Resources
 
 ### Courses
