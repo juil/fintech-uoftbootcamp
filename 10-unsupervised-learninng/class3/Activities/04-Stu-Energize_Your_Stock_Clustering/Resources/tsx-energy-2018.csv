@@ -1,0 +1,25 @@
+Ticker,CompanyName,MeanOpen,MeanHigh,MeanLow,MeanClose,MeanVolume,AnnualReturn,AnnualVariance,EnergyType
+ARX,ARC Resources Ltd.,13.14,13.34,12.91,13.1,1479913.38,-0.7275,0.359,Oil
+CCO,Cameco Corporation,13.7,13.92,13.5,13.7,1203788.22,0.2014,0.3693,Other Energy
+CNQ,Canadian Natural Resources Limited,41.97,42.46,41.46,41.91,3218248.68,-0.3461,0.2947,Oil
+CVE,Cenovus Energy Inc.,11.96,12.18,11.75,11.95,4566143.56,-0.3219,0.45,Oil
+CPG,Crescent Point Energy Corp.,8.53,8.67,8.36,8.5,3919414.03,-1.0103,0.4597,Other Energy
+ENB,Enbridge Inc.,43.43,43.79,42.9,43.32,3764995.23,-0.1993,0.2339,Other Energy
+ERF,Enerplus Corporation,14.66,14.9,14.43,14.64,1113371.53,-0.2554,0.3666,Oil
+GEI,Gibson Energy Inc.,18.53,18.73,18.33,18.54,356758.55,-0.0273,0.2531,Other Energy
+HSE,Husky Energy Inc.,18.89,19.14,18.64,18.87,1322354.12,-0.2899,0.3115,Other Energy
+IMO,Imperial Oil Limited,39.76,40.18,39.36,39.73,1075944.85,-0.1435,0.2214,Oil
+IPL,Inter Pipeline Ltd.,23.38,23.55,23.12,23.33,1138083.88,-0.3293,0.2037,Other Energy
+KEY,Keyera Corp.,34.23,34.53,33.83,34.18,543136.25,-0.3915,0.2282,Other Energy
+MEG,MEG Energy Corp.,7.79,7.96,7.61,7.78,2139580.1,0.1975,0.6003,Other Energy
+MTL,Mullen Group Ltd.,14.83,14.99,14.65,14.81,122646.79,-0.3277,0.229,Other Energy
+PXT,Parex Resources Inc.,20.1,20.43,19.76,20.07,634489.43,-0.2255,0.408,Oil
+PKI,Parkland Corporation,34.45,34.86,34.1,34.48,403640.58,0.1858,0.2577,Other Energy
+PPL,Pembina Pipeline Corporation,43.6,43.94,43.19,43.56,1254880.83,-0.1367,0.1878,Oil
+PSK,PrairieSky Royalty Ltd.,25.26,25.58,24.93,25.22,521871.4,-0.6992,0.2663,Oil
+VII,Seven Generations Energy Ltd.,15.12,15.39,14.82,15.07,1137125.62,-0.641,0.4354,Oil
+SU,Suncor Energy Inc.,47.85,48.34,47.38,47.81,3355217.82,-0.2256,0.2389,Oil
+TRP,TC Energy Corporation,55.2,55.6,54.64,55.12,2082205.84,-0.248,0.1952,Other Energy
+TOU,Tourmaline Oil Corp.,55.2,55.6,54.64,55.12,2082205.84,-0.248,0.1952,Oil
+VET,Vermilion Energy Inc.,41.77,42.27,41.18,41.67,720341.09,-0.5658,0.2932,Oil
+WCP,Whitecap Resources Inc.,7.95,8.07,7.82,7.92,1835142.36,-0.8757,0.402,Oil
