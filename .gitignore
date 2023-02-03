@@ -6,6 +6,7 @@
 .ipynb*
 # Ignore Workspace files
 *.code-workspace
+.vscode
 # Ignore temp swap files
 *.swp
 # Ignore python cache files
