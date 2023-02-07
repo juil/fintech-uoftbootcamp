@@ -15,7 +15,8 @@ In this activity, you will set up Google Colab and configure a notebook to use P
     ```python
     # Install the required libraries
     !pip install pystan
-    !pip install fbprophet
+    # !pip install fbprophet # old lib name
+    !pip install prophet
     !pip install hvplot
     !pip install holoviews
     ```
@@ -26,7 +27,8 @@ In this activity, you will set up Google Colab and configure a notebook to use P
    # Import the required libraries and dependencies
    import pandas as pd
    import holoviews as hv
-   from fbprophet import Prophet
+   # from fbprophet import Prophet # old lib name
+   from prophet import Prophet
    import hvplot.pandas
    import datetime as dt
    %matplotlib inline
