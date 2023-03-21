@@ -10,3 +10,6 @@
 [submodule "assignments/unit10-assignment/cryptocluster"]
 	path = assignments/unit10-assignment/cryptocluster
 	url = git@github.com:juil/cryptocluster.git
+[submodule "projects/project02/recommendedMovie/recommended_movie"]
+	path = projects/project02/recommendedMovie/recommended_movie
+	url = git@github.com:benisde/recommended_movie.git
