@@ -29,4 +29,7 @@ if st.button("Add"):
     st.write(df)
 
 # Bonus
-# YOUR CODE HERE!
+st.text_area("Text Area")
+st.sidebar.radio("Supreme:", ("Yes", "Nein"))
+st.selectbox("Who is your favourite?",
+             list(df['name']))
