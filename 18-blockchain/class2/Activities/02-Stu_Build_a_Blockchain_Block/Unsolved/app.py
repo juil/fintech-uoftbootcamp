@@ -33,24 +33,19 @@ from typing import Any
 # 5. Assign a default value to the `timestamp` attribute by using the following
 # code: `datetime.utcnow().strftime("%H:%M:%S")`
 
-# @TODO
 # Define a class `Block` and add the `@dataclass` decorator.
-# YOUR CODE HERE!
-# YOUR CODE HERE!
-
-    # @TODO:
+@dataclass
+class Block:
     # Define an attribute named `data` with a type of `Any`.
-    # YOUR CODE HERE!
+    data: Any
 
-    # @TODO:
     # Define an attribute named `creator_id` with a type of `int`.
-    # YOUR CODE HERE!
+    creator_id: int
 
-    # @TODO:
     # Define an attribute name `timestamp` with a type of `str`.
     # Use the following code to set the value:
     # `datetime.utcnow().strftime("%H:%M:%S")`
-    # # YOUR CODE HERE!
+    timestamp: str
 
 # Create the application headers using markdown strings.
 st.markdown("# PyBlock")
