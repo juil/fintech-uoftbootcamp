@@ -51,6 +51,10 @@ class Block:
 st.markdown("# PyBlock")
 st.markdown("## Store Data in a Block")
 
+# Bonus: Array of blocks
+if 'blockchain' not in st.session_state:
+    st.session_state.blockchain = []
+
 ################################################################################
 # Step 2:
 # Create a Streamlit Component to Accept User Input
@@ -81,10 +85,11 @@ if st.button("ADD BLOCK"):
     # Use the user input from Step 2 for the `data` attribute
     # Use the integer 42 for the `creator_id`
     new_block =  Block(data=input_data, creator_id=42)
+    st.session_state.blockchain.append(new_block)
 
     # @TODO:
     # Use the `st.write` function to display the new block.
-    st.write(new_block)
+    st.write(st.session_state.blockchain)
 
 ################################################################################
 # Step 4:
