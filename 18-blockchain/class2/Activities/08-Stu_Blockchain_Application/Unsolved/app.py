@@ -16,7 +16,6 @@ import datetime as datetime
 from dataclasses import dataclass
 from typing import Any, List
 import pandas as pd
-import datetime as datetime
 import hashlib
 
 ################################################################################
@@ -137,7 +136,7 @@ st.markdown("## PyChain Ledger")
 
 # @TODO:
 # Create a Pandas DataFrame to display the `PyChain` ledger
-pychain_df =  pd.DataFrame(pychain.get_chain())
+pychain_df = pd.DataFrame(pychain.get_chain())
 
 # @TODO:
 # Use the Streamlit `write` function to display the `PyChain` DataFrame
