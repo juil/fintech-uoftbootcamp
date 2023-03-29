@@ -76,12 +76,12 @@ class PyChain:
 
 # Adds the cache decorator for Streamlit
 
-
+# @TODO: Figure out how to use cache_data properly
+# @st.cache_data(persist='disk')
 @st.cache(allow_output_mutation=True)
 def setup():
     print("Initializing Chain")
     return PyChain([Block(data="Genesis", creator_id=0)])
-
 
 pychain = setup()
 
