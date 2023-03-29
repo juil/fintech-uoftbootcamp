@@ -35,6 +35,7 @@ class Block:
     creator_id: int
     prev_hash: str = "0"
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
+    hash: str = "0"
 
     def hash_block(self):
         sha = hashlib.sha256()
@@ -51,7 +52,9 @@ class Block:
         prev_hash = str(self.prev_hash).encode()
         sha.update(prev_hash)
 
-        return sha.hexdigest()
+        hash = sha.hexdigest()
+
+        return hash
 
 # Create the data class PyChain
 
@@ -116,6 +119,7 @@ if st.button("Add Block"):
     # @TODO:
     # Create a new block in the chain
     next_block = Block(data=input_data, creator_id=42, prev_hash=last_block_hash)
+    next_block.hash = next_block.hash_block()
 
     # @TODO:
     # Add the new block to the chain
