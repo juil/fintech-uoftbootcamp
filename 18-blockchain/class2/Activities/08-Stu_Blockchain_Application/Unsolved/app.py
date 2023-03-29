@@ -63,6 +63,12 @@ class PyChain:
     def add_block(self, block):
         self.chain += [block]
 
+    def last_block(self):
+        return self.chain[-1]
+    
+    def get_chain(self):
+        return self.chain
+
 ################################################################################
 # Streamlit Code
 
@@ -101,19 +107,19 @@ if st.button("Add Block"):
 
     # @TODO:
     # Select the previous block in the chain
-    # YOUR CODE HERE!
+    last_block = pychain.last_block()
 
     # @TODO:
     # Hash the previous block in the chain
-    # YOUR CODE HERE!
+    last_block_hash = last_block.hash_block()
 
     # @TODO:
     # Create a new block in the chain
-    # YOUR CODE HERE!
+    next_block = Block(data=input_data, creator_id=42, prev_hash=last_block_hash)
 
     # @TODO:
     # Add the new block to the chain
-    # YOUR CODE HERE!
+    pychain.add_block(next_block)
 
 ################################################################################
 # Step 3:
@@ -127,11 +133,11 @@ st.markdown("## PyChain Ledger")
 
 # @TODO:
 # Create a Pandas DataFrame to display the `PyChain` ledger
-pychain_df =  # YOUR CODE HERE!
+pychain_df =  pd.DataFrame(pychain.get_chain())
 
 # @TODO:
 # Use the Streamlit `write` function to display the `PyChain` DataFrame
-# YOUR CODE HERE!
+st.write(pychain_df)
 
 ################################################################################
 # Step 4:
