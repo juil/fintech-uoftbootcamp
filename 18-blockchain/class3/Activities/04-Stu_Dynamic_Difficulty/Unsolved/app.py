@@ -51,11 +51,9 @@ class Block:
 @dataclass
 class PyChain:
     chain: List[Block]
-
-    # @TODO:
     # Add a `difficulty` data attribute with a data type of `int` and a default
     # value of 4.
-    # YOUR CODE HERE
+    difficulty: int = 4
 
 # Step 2:
 # Add a `num_of_zeros` data attribute that multiplies the string value ("0") by 
@@ -63,10 +61,7 @@ class PyChain:
     def proof_of_work(self, block):
         calculated_hash = block.hash_block()
 
-        # @TODO:
-        # Add a `num_of_zeros` data attribute that multiplies the string value ("0") 
-        # by the `difficulty` value.
-        # YOUR CODE HERE
+        num_of_zeros = '0' * self.difficulty
 
         while not calculated_hash.startswith(num_of_zeros):
             block.nonce += 1
@@ -84,11 +79,9 @@ class PyChain:
 
 # Adds the cache decorator for Streamlit
 @st.cache(allow_output_mutation=True)
-
 def setup():
     print("Initializing Chain")
     return PyChain([Block(data="Genesis", creator_id=0)])
-
 
 pychain = setup()
 
