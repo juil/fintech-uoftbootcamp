@@ -22,6 +22,8 @@ class Block:
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
     prev_hash: str = "0"
     nonce: int = 0
+    #@TODO: store block's own hash
+    # hash: str = '00000' # Does not get included in its own hash
 
     def hash_block(self):
         sha = hashlib.sha256()
@@ -147,7 +149,7 @@ st.write(pychain_df)
 
 # @TODO:
 # Add a button with the text “Validate Blockchain” to your Streamlit interface.
-# YOUR CODE HERE
+if st.button("Validate Blockchain"):
 
 # Step 3:
 # Code the Validate Blockchain button so that when it’s clicked, it calls
@@ -157,7 +159,7 @@ st.write(pychain_df)
 # @TODO:
 # Call the `is_valid` method of the `PyChain` data class and `write` the
 # result to the Streamlit interface
-# YOUR CODE HERE
+    st.write(pychain.is_valid())
 
 ################################################################################
 # Step 4:
