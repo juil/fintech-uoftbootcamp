@@ -76,30 +76,25 @@ class PyChain:
         # comparing the calculated hash code of each block to the `prev_hash`
         # value contained in the following block.
 
-        # @TODO:
         # Add the code to generate the hash of the first block in the chain.
         # Set the hash equal to a variable called block_hash
         # Hint - The first block in the chain is at index position 0.
-        # YOUR CODE HERE
+        block_hash = self.chain[0].hash_block()
 
-        # @TODO:
         # Create a for-loop to access the remainder of the blocks in the
         # chain, starting at index position 1
-        # YOUR CODE HERE
-
-
-            # @TODO:
+        for block in self.chain[1:]:
             # Code an if statement that compares the block_hash of the
             # previous block to the prev_hash value of the current block
             # If the two hashes are NOT equal, print a statement that says
             # "Blockchain is invalid", and then return the value False
-            # YOUR CODE HERE
-
-
-            # @TODO:
+            if block_hash != block.prev_hash:
+                print("Blockchain is invalid.")
+                return False
+            
             # Set the block_hash value equal to the hashed value of the current
             # block
-            # YOUR CODE HERE
+            block_hash = block.hash_block()
 
 
         print("Blockchain is Valid")
