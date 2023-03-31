@@ -13,3 +13,6 @@
 [submodule "projects/project02/recommendedMovie/recommended_movie"]
 	path = projects/project02/recommendedMovie/recommended_movie
 	url = git@github.com:benisde/recommended_movie.git
+[submodule "assignments/unit18-assignment/PychainLedger"]
+	path = assignments/unit18-assignment/PychainLedger
+	url = git@github.com:juil/PychainLedger.git
