@@ -103,12 +103,12 @@ input_data = st.text_input("Block Data")
 # @TODO:
 # Add a Streamlit slider named "Block Difficulty" that allows the user to update a 
 # difficulty value. Set this equal to the variable `difficulty`
-# YOUR CODE HERE
+difficulty = st.slider("Difficulty:",min_value=1,max_value=10)
 
 # @TODO
 # Update the `difficulty` data attribute of the `PyChain` data class (`pychain.difficulty`) 
 # with this new `difficulty` value
-# YOUR CODE HERE
+pychain.difficulty = difficulty
 
 
 if st.button("Add Block"):
