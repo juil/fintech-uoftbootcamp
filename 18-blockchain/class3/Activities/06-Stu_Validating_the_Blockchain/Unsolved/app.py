@@ -23,7 +23,7 @@ class Block:
     prev_hash: str = "0"
     nonce: int = 0
     #@TODO: store block's own hash
-    # hash: str = '00000' # Does not get included in its own hash
+    hash: str = '00000' # Does not get included in its own hash
 
     def hash_block(self):
         sha = hashlib.sha256()
@@ -42,6 +42,8 @@ class Block:
 
         nonce = str(self.nonce).encode()
         sha.update(nonce)
+
+        self.hash = sha.hexdigest()
 
         return sha.hexdigest()
 
