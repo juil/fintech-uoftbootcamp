@@ -40,6 +40,18 @@ To install the **bip44**  package, check that your `dev` environment is active, 
 pip install bip44
 ```
 
+### Extra Python Modules
+
+Install:
+
+- [`eth-rlp`](https://anaconda.org/conda-forge/eth-rlp)
+- [py-evm](https://py-evm.readthedocs.io/en/latest/guides/quickstart.html)
+
+```shell
+pip install py-evm
+conda install -c conda-forge eth-rlp
+```
+
 ---
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
