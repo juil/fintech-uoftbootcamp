@@ -62,4 +62,4 @@ if st.button("Send Transaction"):
     st.text("\n")
     st.markdown("## Ethereum Transaction Hash:")
 
-    st.write(transaction_hash)
+    st.write(transaction_hash.hex())

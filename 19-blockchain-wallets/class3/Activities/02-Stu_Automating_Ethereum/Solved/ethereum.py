@@ -65,9 +65,11 @@ def send_transaction(w3, account, receiver, ether):
         "from": account.address,
         "value": wei_value,
         "gas": gas_estimate,
-        "gasPrice": 0,
+        "gasPrice": int(gas_estimate*100000),
         "nonce": w3.eth.getTransactionCount(account.address)
     }
+
+    print(f"Raw Transaction:\n{raw_tx}")
 
     # Sign the raw transaction with ethereum account
     signed_tx = account.signTransaction(raw_tx)
