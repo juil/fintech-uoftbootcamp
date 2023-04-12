@@ -17,5 +17,5 @@
 	path = assignments/unit18-assignment/PychainLedger
 	url = git@github.com:juil/PychainLedger.git
 [submodule "assignments/unit19-assignment/KryptoWallet"]
-	path = assignments/unit19-assignment/KryptoWallet
+	path = assignments/unit19-assignment/KryptoJobs
 	url = git@github.com:juil/KryptoWallet.git
