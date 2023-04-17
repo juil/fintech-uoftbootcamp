@@ -19,3 +19,6 @@
 [submodule "assignments/unit19-assignment/KryptoWallet"]
 	path = assignments/unit19-assignment/KryptoJobs
 	url = git@github.com:juil/KryptoWallet.git
+[submodule "assignments/unit20-assignment/JointSavings"]
+	path = assignments/unit20-assignment/JointSavings
+	url = git@github.com:juil/JointSavings.git
