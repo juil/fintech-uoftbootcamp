@@ -36,8 +36,8 @@ contract’s ether balance with each deposit or withdrawal.
 
 */
 
-
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
 contract CustomerAccount {
     address owner;
@@ -67,5 +67,5 @@ contract CustomerAccount {
         accountBalance = address(this).balance;
     }
 
-    function() external payable {}
+    fallback() external payable {}
 }
