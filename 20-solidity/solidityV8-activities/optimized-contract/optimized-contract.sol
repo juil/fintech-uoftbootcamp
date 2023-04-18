@@ -4,14 +4,15 @@
     contract OptimizedContract {
         struct Person {
      	  /* Add constructor with two variable name and age*/
+          // Optimize: Pack variables
+          uint8 age;
           string name;
-          uint age;
         }
 
         Person[] public people;
 
         /* Add a function addperson with name and age */
-        function addPerson(string memory _name, uint _age) public {
+        function addPerson(string memory _name, uint8 _age) public {
             people.push(
                 Person ({
                     name: _name,
