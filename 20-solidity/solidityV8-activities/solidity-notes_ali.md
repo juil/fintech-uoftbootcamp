@@ -41,7 +41,7 @@ There are 2 upper bounds to the amount of gas you can spend
 	•	gas limit (max amount of gas you're willing to use for your transaction, set by you)
 	•	block gas limit (max amount of gas allowed in a block, set by the network)
 
-```solidity Solidity
+```javascript Solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
@@ -66,7 +66,7 @@ An example of a basic wallet.
 	•	Anyone can send ETH.
 	•	Only the owner can withdraw.
 
-```sol Solidity
+```javascript Solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
