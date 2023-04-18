@@ -19,6 +19,14 @@ What is **expensive**:
 * External function calls.
 * Loops
 
+### More
+
+[Solidity Gas Optimizations](https://dev.to/javier123454321/solidity-gas-optimization-pt1-4271)
+1. Memory vs. storage
+2. Constants 
+3. Packing Structs
+4. Efficient stringss
+
 ## Breaking Changes 
 
 - `// SPDX-License-Identifier: MIT`
