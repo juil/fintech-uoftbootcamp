@@ -20,9 +20,11 @@
             );
         }
 
-        function getPerson(uint index) public view returns (bytes memory) {
-     
-	 /* Add a function getPerson with name and age */	
-
+        function getPerson(uint index) public view returns (Person memory) {
+            /* Add a function getPerson with name and age */
+            // If returning type bytes
+            // bytes memory encoded = abi.encode(people[index]);
+            // return encoded;
+            return people[index];
         }
     }
