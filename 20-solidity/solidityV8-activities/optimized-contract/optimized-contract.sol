@@ -4,6 +4,8 @@
     contract OptimizedContract {
         struct Person {
      	  /* Add constructor with two variable name and age*/
+          bytes32 name;
+          uint8 age;
         }
 
         Person[] public people;
