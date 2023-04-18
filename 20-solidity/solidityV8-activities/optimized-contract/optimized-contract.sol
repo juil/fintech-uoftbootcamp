@@ -4,15 +4,21 @@
     contract OptimizedContract {
         struct Person {
      	  /* Add constructor with two variable name and age*/
-          bytes32 name;
-          uint8 age;
+          string name;
+          uint age;
         }
 
         Person[] public people;
 
-        function addPerson(string memory _name, uint _age) 
-
-	  /* Add a function addperson with name and age */
+        /* Add a function addperson with name and age */
+        function addPerson(string memory _name, uint _age) public {
+            people.push(
+                Person ({
+                    name: _name,
+                    age: _age
+                })
+            );
+        }
 
         function getPerson(uint index) public view returns (bytes memory) {
      
