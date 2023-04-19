@@ -50,5 +50,36 @@ function mint(address recipient, uint amount) public onlyOwner {
 
 */
 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8;
 
-// Write the code for the import statements and ArcadeToken contract below:
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract ArcadeToken is ERC20 {
+    address owner = msg.sender;
+
+    modifier onlyOwner {
+        require(msg.sender == owner, "You do not have permission.");
+        _;
+    }
+
+    // constructor (uint initial_supply) ERC20("ArcadeToken", "ARCD") {
+    //     owner = msg.sender;
+    //     _mint(owner, initial_supply);
+    // }
+
+    constructor(
+        string memory name,
+        string memory symbol,
+        // uint8 decimals,
+        uint256 initialSupply
+    ) ERC20(name, symbol) {
+        // _setupDecimals(decimals);
+        _mint(msg.sender, initialSupply);
+    }
+
+    function mint(address recipient, uint amount) public onlyOwner {
+        _mint(recipient, amount);
+    }
+
+}
