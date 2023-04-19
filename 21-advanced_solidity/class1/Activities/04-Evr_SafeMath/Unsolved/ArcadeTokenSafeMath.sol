@@ -2,16 +2,17 @@
 SafeMath
 */
 
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
 // @TODO: import the SafeMath library via Github URL
 import "./node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 contract ArcadeToken {
     // @TODO: add the "using SafeMath..." line here to link the library to all uint types
+    using SafeMath for uint;
 
-
-    address payable owner = msg.sender;
+    address owner = msg.sender;
     string public symbol = "ARCD";
     uint public exchange_rate = 100;
 
@@ -33,7 +34,7 @@ contract ArcadeToken {
         uint amount = msg.value * exchange_rate;
         // @TODO: replace the following with the .add function
         balances[msg.sender] += amount;
-        owner.transfer(msg.value);
+        payable(owner).transfer(msg.value);
     }
 
     function mint(address recipient, uint value) public {
