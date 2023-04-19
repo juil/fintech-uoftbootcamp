@@ -24,22 +24,22 @@ contract ArcadeToken {
 
     function transfer(address recipient, uint value) public {
         // @TODO: replace the following with the .sub function
-        balances[msg.sender] -= value;
+        balances[msg.sender] = balances[msg.sender].sub(value);
         // @TODO: replace the following with the .add function
-        balances[recipient] += value;
+        balances[recipient] = balances[recipient].add(value);
     }
 
     function purchase() public payable {
         // @TODO: replace the following with the .mul function
-        uint amount = msg.value * exchange_rate;
+        uint amount = msg.value.mul(exchange_rate);
         // @TODO: replace the following with the .add function
-        balances[msg.sender] += amount;
+        balances[msg.sender] = balances[msg.sender].add(amount);
         payable(owner).transfer(msg.value);
     }
 
     function mint(address recipient, uint value) public {
         require(msg.sender == owner, "You do not have permission to mint tokens!");
         // @TODO: replace the following with the .add function
-        balances[recipient] += value;
+        balances[recipient] = balances[recipient].add(value);
     }
 }
