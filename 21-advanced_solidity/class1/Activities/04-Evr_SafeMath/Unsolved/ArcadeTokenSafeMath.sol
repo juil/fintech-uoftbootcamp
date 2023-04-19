@@ -5,7 +5,7 @@ SafeMath
 pragma solidity ^0.5.0;
 
 // @TODO: import the SafeMath library via Github URL
-
+import "./node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 contract ArcadeToken {
     // @TODO: add the "using SafeMath..." line here to link the library to all uint types
