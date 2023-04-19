@@ -22,3 +22,6 @@
 [submodule "assignments/unit20-assignment/JointSavings"]
 	path = assignments/unit20-assignment/JointSavings
 	url = git@github.com:juil/JointSavings.git
+[submodule "assignments/unit21-assignment/KaseiCoin"]
+	path = assignments/unit21-assignment/KaseiCoin
+	url = git@github.com:juil/KaseiCoin.git
