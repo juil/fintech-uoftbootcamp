@@ -25,3 +25,6 @@
 [submodule "assignments/unit21-assignment/KaseiCoin"]
 	path = assignments/unit21-assignment/KaseiCoin
 	url = git@github.com:juil/KaseiCoin.git
+[submodule "assignments/unit11-assignment/ProphetForecast"]
+	path = assignments/unit11-assignment/ProphetForecast
+	url = git@github.com:juil/ProphetForecast.git
