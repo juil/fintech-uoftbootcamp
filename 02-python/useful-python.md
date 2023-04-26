@@ -71,6 +71,16 @@ https://www.geeksforgeeks.org/writing-csv-files-in-python/
 Pandas
 	conda install pandas
 
+### Formatting
+
+Tabulate:
+
+https://github.com/astanin/python-tabulate
+
+```sh
+pip install tabulate
+```
+
 ## Iterate through dictionary
 
 ```
