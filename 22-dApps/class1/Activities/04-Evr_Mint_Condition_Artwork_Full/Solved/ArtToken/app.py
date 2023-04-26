@@ -4,6 +4,7 @@ from web3 import Web3
 from pathlib import Path
 from dotenv import load_dotenv
 import streamlit as st
+import validators
 
 load_dotenv()
 
@@ -88,6 +89,10 @@ if st.button("Display"):
     # Get the art token's URI
     token_uri = contract.functions.tokenURI(token_id).call()
 
-    st.write(f"The tokenURI is {token_uri}")
-    st.image(token_uri)
+    st.write(f"The tokenURI is: {token_uri}")
+    
+    if validators.url(token_uri):
+        print(f"Valid URL: {token_uri}")
+        st.image(token_uri)
+    
 
