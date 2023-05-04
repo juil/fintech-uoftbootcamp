@@ -28,3 +28,6 @@
 [submodule "assignments/unit11-assignment/ProphetForecast"]
 	path = assignments/unit11-assignment/ProphetForecast
 	url = git@github.com:juil/ProphetForecast.git
+[submodule "assignments/unit12-assignment/CreditRiskClass"]
+	path = assignments/unit12-assignment/CreditRiskClass
+	url = git@github.com:juil/CreditRiskClass.git
