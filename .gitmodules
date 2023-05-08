@@ -31,3 +31,6 @@
 [submodule "assignments/unit12-assignment/CreditRiskClass"]
 	path = assignments/unit12-assignment/CreditRiskClass
 	url = git@github.com:juil/CreditRiskClass.git
+[submodule "projects/project03/TBD-SmartTicket"]
+	path = projects/project03/TBD-SmartTicket
+	url = git@github.com:P3G2/TBD-SmartTicket.git
