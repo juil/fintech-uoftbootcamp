@@ -34,3 +34,12 @@
 [submodule "projects/project03/TBD-SmartTicket"]
 	path = projects/project03/TBD-SmartTicket
 	url = git@github.com:P3G2/TBD-SmartTicket.git
+[submodule "projects/project03/SmartTicket"]
+	path = projects/project03/SmartTicket
+	url = git@github.com:P2G2/SmartTicket.git
+[submodule "projects/project03/TKT"]
+	path = projects/project03/TKT
+	url = git@github.com:P3G2/TKT.git
+[submodule "projects/project03/tickting_app"]
+	path = projects/project03/tickting_app
+	url = git@github.com:benisde/tickting_app.git
